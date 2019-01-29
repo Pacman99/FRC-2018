@@ -12,9 +12,9 @@ public class Robot2018 extends Robot {
     public final Drive drive = addModule(new Drive());
     public final Elevator elevator = addModule(new Elevator());
     public final Intake intake = addModule(new Intake());
-    public final Shifter shifter = addModule(new Shifter(Ports.SHIFTER_A, Ports.SHIFTER_B));
+    public final Shifter shifter = addModule(new Shifter(Ports.SHIFTER_A, Ports.SHIFTER_B))
     public final Clamp clamp = addModule(new Clamp());
-    public final Arm arm = addModule(new Arm());
+    public final Arm arm = addModule(new Arm())
     public final Camera camera = addModule(new Camera());
     public final PowerMonitor powermonitor = addModule(new PowerMonitor(Ports.PDP_MODULE, Ports.COMPRESSOR));
     
